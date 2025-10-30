@@ -3,24 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>𝐌𝐀𝐋𝐈𝐊 𝐌𝐔𝐌𝐁𝐀𝐈 𝐂𝐑𝐈𝐂𝐊𝐄𝐓 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍 🏏</title>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2320132415100118');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <title>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭 – 𝐍𝐢𝐟𝐭𝐲 & 𝐁𝐚𝐧𝐤𝐍𝐢𝐟𝐭𝐲 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 📊</title>
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
@@ -41,7 +24,7 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
     body {
       font-family: "Poppins", sans-serif;
       background: url("https://i.supaimg.com/22bb2a92-6018-4040-836c-ba5e78389600.jpg") center center / cover no-repeat fixed;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -50,7 +33,6 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       overflow: hidden;
     }
 
-    /* 🔲 Background overlay */
     body::before {
       content: "";
       position: absolute;
@@ -59,7 +41,6 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       z-index: 0;
     }
 
-    /* 💠 Profile Card */
     .profile-card {
       position: relative;
       z-index: 1;
@@ -72,22 +53,20 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       max-width: 420px;
       text-align: center;
       padding: 48px 22px 30px;
+      margin: 20px;
     }
 
-    /* 🖼 Logo */
     .profile-image {
       width: 110px;
       height: 110px;
       border-radius: 50%;
       margin: -70px auto 18px;
-      background: url("https://i.supaimg.com/122ac2a7-3f4e-4964-a1ed-1c4eb0afaaf8.jpg") center/cover no-repeat;
+      background: url("https://i.supaimg.com/26c29e0e-2073-4d0e-a438-4af101f713a9.webp") center/cover no-repeat;
       border: 5px solid rgba(255, 255, 255, 0.85);
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
     }
 
-    /* 📛 Channel Name */
     h2 {
-      font-family: "Poppins", sans-serif;
       font-weight: 600;
       font-size: 1.6rem;
       color: var(--red);
@@ -100,7 +79,6 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       opacity: 0.9;
     }
 
-    /* 📋 Details */
     .details {
       text-align: left;
       margin: 10px auto 20px;
@@ -123,7 +101,7 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       width: 88%;
       max-width: 320px;
       padding: 14px 0;
-      background-color: var(--red);
+      background: linear-gradient(90deg, var(--red), var(--red-dark));
       color: #fff;
       font-weight: 700;
       border: none;
@@ -134,14 +112,14 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       font-size: 1.05rem;
       transition: all 0.3s ease;
       cursor: pointer;
+      box-shadow: 0 4px 15px rgba(227, 6, 6, 0.4);
     }
 
     .join-btn:hover {
       transform: translateY(-3px);
-      background-color: var(--red-dark);
+      filter: brightness(1.15);
     }
 
-    /* 📞 Contact Info */
     .contact-info {
       font-size: 0.9rem;
       line-height: 1.6;
@@ -154,37 +132,67 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
       position: fixed;
       bottom: 25px;
       right: 25px;
-      background: var(--red);
+      background: linear-gradient(90deg, var(--red), var(--red-dark));
       color: #fff;
-      font-weight: 600;
+      font-weight: 700;
       border-radius: 50px;
-      padding: 14px 24px;
+      padding: 14px 26px;
       text-decoration: none;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-      transition: all 0.3s ease;
+      transition: all 0.4s ease;
       z-index: 100;
       font-size: 1rem;
+      opacity: 0;
+      transform: scale(0);
+    }
+
+    /* 💥 Pop-in Animation */
+    @keyframes popIn {
+      0% {
+        opacity: 0;
+        transform: scale(0);
+      }
+      70% {
+        opacity: 1;
+        transform: scale(1.2);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .floating-btn.show {
+      animation: popIn 0.8s ease forwards;
     }
 
     .floating-btn:hover {
-      background: var(--red-dark);
-      transform: translateY(-3px);
+      transform: translateY(-3px) scale(1.05);
+      filter: brightness(1.15);
     }
 
-    /* 📱 Responsive */
-    @media (max-width: 480px) {
+    @media (max-width: 768px) {
       h2 {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
       }
       .join-btn {
         font-size: 1rem;
         width: 94%;
       }
       .floating-btn {
-        padding: 12px 20px;
+        padding: 12px 22px;
         font-size: 0.95rem;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .floating-btn {
         bottom: 18px;
         right: 18px;
+        padding: 12px 20px;
+        font-size: 0.9rem;
       }
     }
   </style>
@@ -193,35 +201,43 @@ src="https://www.facebook.com/tr?id=2320132415100118&ev=PageView&noscript=1"
 <body>
   <div class="profile-card">
     <div class="profile-image"></div>
-    <h2>𝐌𝐀𝐋𝐈𝐊 𝐌𝐔𝐌𝐁𝐀𝐈 𝐂𝐑𝐈𝐂𝐊𝐄𝐓 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍 🏏</h2>
-    <p>🔥 Expert Match Predictions & Fantasy Team Tips Daily!</p>
+    <h2>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭 📊</h2>
+    <p>💹 Nifty & BankNifty Analysis, Live Levels & Market Insights</p>
 
     <div class="details">
       <ul>
-        <li>🏆 95% Accurate Cricket Predictions</li>
-        <li>🎯 Dream11 & Fantasy Expert Team Guidance</li>
-        <li>💎 VIP Members के लिए Premium Reports</li>
-        <li>📊 Toss, Pitch & Team Analysis Updates</li>
-        <li>⚡ Fast & Reliable Match Insights</li>
+        <li>📈 Daily Nifty & BankNifty Chart Analysis</li>
+        <li>💰 Intraday & Swing Trade Setups</li>
+        <li>🔔 Live Levels & Market Alerts</li>
+        <li>🎯 Expert Risk Management Guidance</li>
+        <li>🏆 Proven Accuracy in Market Predictions</li>
       </ul>
     </div>
 
-    <a href="https://t.me/+NbJBvXGpqoc5Yjc1" class="join-btn" target="_blank" rel="noopener">
-      Join Telegram Channel
+    <a href="https://t.me/+9jGHB3QldFBlOTRl" class="join-btn" target="_blank" rel="noopener">
+      💙𝐉𝐨𝐢𝐧 𝐅𝐫𝐞𝐞 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
     </a>
 
     <div class="contact-info">
-      <strong>VIP Membership उपलब्ध:</strong><br />
+      <strong>Premium Membership उपलब्ध:</strong><br />
       💰 UPI, Paytm, GooglePay पर Payment स्वीकार्य<br /><br />
       <strong>संपर्क करें:</strong> 9694110091<br />
-      ✉️ Email: cricketpredict@email.com
+      ✉️ Email: tradewithamit@email.com
     </div>
   </div>
 
   <!-- 🧭 Floating Button -->
-  <a href="https://t.me/+NbJBvXGpqoc5Yjc1" class="floating-btn" target="_blank" rel="noopener">
-    Join Now
+  <a href="https://t.me/+9jGHB3QldFBlOTRl" class="floating-btn" id="floatBtn" target="_blank" rel="noopener">
+    💙 Join Free Now
   </a>
-</body>
 
+  <script>
+    // Pop-in animation after page load
+    window.addEventListener("load", () => {
+      setTimeout(() => {
+        document.getElementById("floatBtn").classList.add("show");
+      }, 800);
+    });
+  </script>
+</body>
 </html>
