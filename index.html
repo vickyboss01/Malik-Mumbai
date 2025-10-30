@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>𝐌𝐀𝐋𝐈𝐊 𝐌𝐔𝐌𝐁𝐀𝐈 𝐂𝐑𝐈𝐂𝐊𝐄𝐓 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍 🏏</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --red: #e30606;
+      --red-dark: #b80000;
+      --text: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Poppins", sans-serif;
+      background: url("https://i.supaimg.com/22bb2a92-6018-4040-836c-ba5e78389600.jpg") center center / cover no-repeat fixed;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 🔲 Background overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      z-index: 0;
+    }
+
+    /* 💠 Profile Card */
+    .profile-card {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 22px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+      width: 90%;
+      max-width: 420px;
+      text-align: center;
+      padding: 48px 22px 30px;
+    }
+
+    /* 🖼 Logo */
+    .profile-image {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      margin: -70px auto 18px;
+      background: url("https://i.supaimg.com/122ac2a7-3f4e-4964-a1ed-1c4eb0afaaf8.jpg") center/cover no-repeat;
+      border: 5px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    }
+
+    /* 📛 Channel Name */
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.6rem;
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 0.95rem;
+      margin-bottom: 16px;
+      opacity: 0.9;
+    }
+
+    /* 📋 Details */
+    .details {
+      text-align: left;
+      margin: 10px auto 20px;
+      max-width: 360px;
+      font-size: 0.92rem;
+    }
+
+    .details ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .details li {
+      margin: 6px 0;
+    }
+
+    /* 🔘 CTA Button */
+    .join-btn {
+      display: inline-block;
+      width: 88%;
+      max-width: 320px;
+      padding: 14px 0;
+      background-color: var(--red);
+      color: #fff;
+      font-weight: 700;
+      border: none;
+      border-radius: 30px;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      font-size: 1.05rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-3px);
+      background-color: var(--red-dark);
+    }
+
+    /* 📞 Contact Info */
+    .contact-info {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      margin-top: 16px;
+      opacity: 0.95;
+    }
+
+    /* 🧭 Floating Button */
+    .floating-btn {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      background: var(--red);
+      color: #fff;
+      font-weight: 600;
+      border-radius: 50px;
+      padding: 14px 24px;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+      transition: all 0.3s ease;
+      z-index: 100;
+      font-size: 1rem;
+    }
+
+    .floating-btn:hover {
+      background: var(--red-dark);
+      transform: translateY(-3px);
+    }
+
+    /* 📱 Responsive */
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 1.4rem;
+      }
+      .join-btn {
+        font-size: 1rem;
+        width: 94%;
+      }
+      .floating-btn {
+        padding: 12px 20px;
+        font-size: 0.95rem;
+        bottom: 18px;
+        right: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="profile-card">
+    <div class="profile-image"></div>
+    <h2>𝐌𝐀𝐋𝐈𝐊 𝐌𝐔𝐌𝐁𝐀𝐈 𝐂𝐑𝐈𝐂𝐊𝐄𝐓 𝐏𝐑𝐄𝐃𝐈𝐂𝐓𝐈𝐎𝐍 🏏</h2>
+    <p>🔥 Expert Match Predictions & Fantasy Team Tips Daily!</p>
+
+    <div class="details">
+      <ul>
+        <li>🏆 95% Accurate Cricket Predictions</li>
+        <li>🎯 Dream11 & Fantasy Expert Team Guidance</li>
+        <li>💎 VIP Members के लिए Premium Reports</li>
+        <li>📊 Toss, Pitch & Team Analysis Updates</li>
+        <li>⚡ Fast & Reliable Match Insights</li>
+      </ul>
+    </div>
+
+    <a href="https://t.me/+NbJBvXGpqoc5Yjc1" class="join-btn" target="_blank" rel="noopener">
+      Join Telegram Channel
+    </a>
+
+    <div class="contact-info">
+      <strong>VIP Membership उपलब्ध:</strong><br />
+      💰 UPI, Paytm, GooglePay पर Payment स्वीकार्य<br /><br />
+      <strong>संपर्क करें:</strong> 9694110091<br />
+      ✉️ Email: cricketpredict@email.com
+    </div>
+  </div>
+
+  <!-- 🧭 Floating Button -->
+  <a href="https://t.me/+NbJBvXGpqoc5Yjc1" class="floating-btn" target="_blank" rel="noopener">
+    Join Now
+  </a>
+</body>
+</html>
