@@ -1,243 +1,222 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭 – 𝐍𝐢𝐟𝐭𝐲 & 𝐁𝐚𝐧𝐤𝐍𝐢𝐟𝐭𝐲 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 📊</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malik Mumbai Cricket Prediction</title>
+<meta name="description" content="Daily Cricket Match Predictions, Toss Reports, and Match Winner Insights by Malik Mumbai. Join our Telegram Channel for accurate cricket tips.">
+<link rel="icon" href="https://i.supaimg.com/122ac2a7-3f4e-4964-a1ed-1c4eb0afaaf8.jpg" type="image/x-icon">
 
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+  *{margin:0;padding:0;box-sizing:border-box;}
 
-  <style>
-    :root {
-      --red: #e30606;
-      --red-dark: #b80000;
-      --text: #ffffff;
-    }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url('https://i.supaimg.com/1a4f0086-e78d-47a2-af5d-908903f38856.jpg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 40px 0;
+  }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+  .overlay-box {
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 70px 25px 40px 25px;
+    margin-top: 80px;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 0 0 25px rgba(255,0,0,0.4);
+    backdrop-filter: blur(6px);
+    text-align: center;
+  }
 
-    body {
-      font-family: "Poppins", sans-serif;
-      background: url("https://i.supaimg.com/22bb2a92-6018-4040-836c-ba5e78389600.jpg") center center / cover no-repeat fixed;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text);
-      position: relative;
-      overflow: hidden;
-    }
+  /* Floating logo outside the box */
+  .logo {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,0,0,0.8);
+    box-shadow: 0 0 25px rgba(255,0,0,0.6);
+    background: #000;
+  }
 
-    body::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.45);
-      z-index: 0;
-    }
+  h1 {
+    font-size: 1.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  h1:hover {
+    color: red;
+    transform: scale(1.05);
+  }
 
-    .profile-card {
-      position: relative;
-      z-index: 1;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 22px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
-      width: 90%;
-      max-width: 420px;
-      text-align: center;
-      padding: 48px 22px 30px;
-      margin: 20px;
-    }
+  .tagline {
+    font-size: 1rem;
+    margin-bottom: 35px;
+    color: #ffcccc;
+  }
 
-    .profile-image {
-      width: 110px;
-      height: 110px;
-      border-radius: 50%;
-      margin: -70px auto 18px;
-      background: url("https://i.supaimg.com/26c29e0e-2073-4d0e-a438-4af101f713a9.webp") center/cover no-repeat;
-      border: 5px solid rgba(255, 255, 255, 0.85);
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-    }
+  /* CTA Button */
+  .cta {
+    display:inline-block;
+    background:linear-gradient(135deg,#ff3333,#ff6666);
+    color:#fff;
+    padding:15px 42px;
+    font-size:1.05rem;
+    font-weight:600;
+    border:none;
+    border-radius:12px;
+    cursor:pointer;
+    box-shadow:0 6px 15px rgba(255,0,0,0.4);
+    transition:all 0.25s ease;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+  }
 
-    h2 {
-      font-weight: 600;
-      font-size: 1.6rem;
-      color: var(--red);
-      margin-bottom: 8px;
-    }
+  .cta:hover {
+    transform:translateY(-3px);
+    background:linear-gradient(135deg,#cc0000,#ff3333);
+    box-shadow:0 8px 20px rgba(255,0,0,0.6);
+  }
 
-    p {
-      font-size: 0.95rem;
-      margin-bottom: 16px;
-      opacity: 0.9;
-    }
+  .section {
+    margin-top: 60px;
+    text-align: left;
+    background: rgba(30,30,30,0.55);
+    border-left: 4px solid #ff3333;
+    border-radius: 12px;
+    padding: 20px 22px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-    .details {
-      text-align: left;
-      margin: 10px auto 20px;
-      max-width: 360px;
-      font-size: 0.92rem;
-    }
+  .section:hover {
+    transform:translateY(-3px);
+    box-shadow:0 8px 20px rgba(255,0,0,0.35);
+  }
 
-    .details ul {
-      list-style: none;
-      padding: 0;
-    }
+  .section h2 {
+    color: #ff3333;
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+  }
 
-    .details li {
-      margin: 6px 0;
-    }
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+  }
 
-    /* 🔘 CTA Button */
-    .join-btn {
-      display: inline-block;
-      width: 88%;
-      max-width: 320px;
-      padding: 14px 0;
-      background: linear-gradient(90deg, var(--red), var(--red-dark));
-      color: #fff;
-      font-weight: 700;
-      border: none;
-      border-radius: 30px;
-      text-transform: uppercase;
-      text-decoration: none;
-      letter-spacing: 0.5px;
-      font-size: 1.05rem;
-      transition: all 0.3s ease;
-      cursor: pointer;
-      box-shadow: 0 4px 15px rgba(227, 6, 6, 0.4);
-    }
+  .section li {
+    color: #eee;
+    margin-bottom: 8px;
+    padding-left: 22px;
+    position: relative;
+  }
 
-    .join-btn:hover {
-      transform: translateY(-3px);
-      filter: brightness(1.15);
-    }
+  .section li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+    color: #ff3333;
+  }
 
-    .contact-info {
-      font-size: 0.9rem;
-      line-height: 1.6;
-      margin-top: 16px;
-      opacity: 0.95;
-    }
+  .section p {
+    font-size: 0.96rem;
+    line-height: 1.5;
+    color: #f0f0f0;
+  }
 
-    /* 🧭 Floating Button */
-    .floating-btn {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      background: linear-gradient(90deg, var(--red), var(--red-dark));
-      color: #fff;
-      font-weight: 700;
-      border-radius: 50px;
-      padding: 14px 26px;
-      text-decoration: none;
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-      transition: all 0.4s ease;
-      z-index: 100;
-      font-size: 1rem;
-      opacity: 0;
-      transform: scale(0);
-    }
+  /* Increased space between pinned section and CTA */
+  .bottom-space {
+    margin-top: 50px;
+  }
 
-    /* 💥 Pop-in Animation */
-    @keyframes popIn {
-      0% {
-        opacity: 0;
-        transform: scale(0);
-      }
-      70% {
-        opacity: 1;
-        transform: scale(1.2);
-      }
-      100% {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
+  .floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background:linear-gradient(135deg,#ff3333,#ff6666);
+    color:#fff;
+    padding:13px 28px;
+    font-weight:600;
+    border-radius:12px;
+    box-shadow:0 0 20px rgba(255,0,0,0.6);
+    cursor:pointer;
+    animation:pop 1.5s infinite ease-in-out;
+    z-index:1000;
+    transition: all 0.3s ease;
+    text-decoration:none;
+  }
 
-    .floating-btn.show {
-      animation: popIn 0.8s ease forwards;
-    }
+  .floating-btn:hover {
+    background:linear-gradient(135deg,#cc0000,#ff3333);
+    transform:scale(1.07);
+    box-shadow:0 6px 22px rgba(255,0,0,0.6);
+  }
 
-    .floating-btn:hover {
-      transform: translateY(-3px) scale(1.05);
-      filter: brightness(1.15);
-    }
+  @keyframes pop {0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
 
-    @media (max-width: 768px) {
-      h2 {
-        font-size: 1.45rem;
-      }
-      .join-btn {
-        font-size: 1rem;
-        width: 94%;
-      }
-      .floating-btn {
-        padding: 12px 22px;
-        font-size: 0.95rem;
-        bottom: 20px;
-        right: 20px;
-      }
-    }
+  .disclaimer {
+    font-size: 0.8rem;
+    color: #bbb;
+    margin-top: 25px;
+    text-align: center;
+  }
 
-    @media (max-width: 480px) {
-      .floating-btn {
-        bottom: 18px;
-        right: 18px;
-        padding: 12px 20px;
-        font-size: 0.9rem;
-      }
-    }
-  </style>
+  @media (max-width: 600px) {
+    h1 { font-size: 1.5rem; }
+    .tagline { font-size: 0.9rem; }
+    .cta { font-size: 0.95rem; padding: 12px 28px; }
+    .overlay-box { padding: 60px 18px 35px 18px; }
+  }
+</style>
 </head>
 
 <body>
-  <div class="profile-card">
-    <div class="profile-image"></div>
-    <h2>𝐌𝐚𝐫𝐤𝐞𝐭 𝐓𝐫𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 𝐀𝐦𝐢𝐭 📊</h2>
-    <p>💹 Nifty & BankNifty Analysis, Live Levels & Market Insights</p>
+  <div class="overlay-box">
+    <img src="https://i.supaimg.com/122ac2a7-3f4e-4964-a1ed-1c4eb0afaaf8.jpg" alt="Logo" class="logo">
+    <h1>𝐌𝐚𝐥𝐢𝐤 𝐌𝐮𝐦𝐛𝐚𝐢 𝐂𝐫𝐢𝐜𝐤𝐞𝐭 𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧</h1>
+    <p class="tagline">🔥 Real Cricket Prediction Hub – Toss & Match Winner Reports 💰</p>
 
-    <div class="details">
-      <ul>
-        <li>📈 Daily Nifty & BankNifty Chart Analysis</li>
-        <li>💰 Intraday & Swing Trade Setups</li>
-        <li>🔔 Live Levels & Market Alerts</li>
-        <li>🎯 Expert Risk Management Guidance</li>
-        <li>🏆 Proven Accuracy in Market Predictions</li>
-      </ul>
-    </div>
-
-    <a href="https://t.me/+9jGHB3QldFBlOTRl" class="join-btn" target="_blank" rel="noopener">
-      💙𝐉𝐨𝐢𝐧 𝐅𝐫𝐞𝐞 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+    <a href="https://t.me/+NbJBvXGpqoc5Yjc1" target="_blank">
+      <button class="cta">💙 𝗝𝗼𝗶𝗻 𝗙𝗿𝗲𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺</button>
     </a>
 
-    <div class="contact-info">
-      <strong>Premium Membership उपलब्ध:</strong><br />
-      💰 UPI, Paytm, GooglePay पर Payment स्वीकार्य<br /><br />
-      <strong>संपर्क करें:</strong> 9694110091<br />
-      ✉️ Email: tradewithamit@email.com
+    <div class="section">
+      <h2>📌 𝗠𝗮𝗹𝗶𝗸 𝗕𝗵𝗮𝗶 𝗞𝗲 𝗣𝗮𝘀𝘀 𝗞𝘆𝗮 𝗠𝗶𝗹𝗲𝗴𝗮...?</h2>
+      <ul>
+        <li>🎯 100% accurate match predictions</li>
+        <li>🏏 Toss + Match Winner + Session Tips</li>
+        <li>💰 Free & Premium Cricket Reports</li>
+        <li>📲 Live Updates + Daily Insights</li>
+        <li>🔥 Exclusive “Malik Bhai” Special Tips</li>
+      </ul>
+      <p>Ab har match me jeet aapki hogi! Join karo aur apna game strong banao. 🏆</p>
     </div>
+
+    <div class="bottom-space">
+      <a href="https://t.me/+NbJBvXGpqoc5Yjc1" target="_blank">
+        <button class="cta">💙 𝗝𝗼𝗶𝗻 𝗙𝗿𝗲𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺</button>
+      </a>
+    </div>
+
+    <p class="disclaimer">Disclaimer: This channel provides cricket opinions for entertainment purposes only. Bet responsibly.</p>
   </div>
 
-  <!-- 🧭 Floating Button -->
-  <a href="https://t.me/+9jGHB3QldFBlOTRl" class="floating-btn" id="floatBtn" target="_blank" rel="noopener">
-    💙 Join Free Now
-  </a>
-
-  <script>
-    // Pop-in animation after page load
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        document.getElementById("floatBtn").classList.add("show");
-      }, 800);
-    });
-  </script>
+  <a href="https://t.me/+NbJBvXGpqoc5Yjc1" target="_blank" class="floating-btn">💙 Join Now</a>
 </body>
 </html>
